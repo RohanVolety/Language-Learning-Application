@@ -1,0 +1,31 @@
+.leaderboard-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.leaderboard-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.leaderboard-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.leaderboard-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.top-3 {
+    font-weight: bold;
+    color: red;
+}

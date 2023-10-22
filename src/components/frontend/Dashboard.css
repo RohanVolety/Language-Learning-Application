@@ -1,0 +1,137 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(to bottom, #4481eb, #04befe); */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.dashboard-text {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.dashboard-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.dashboard-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #04befe;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.dashboard-link:hover {
+    background: #4481eb;
+    transform: scale(1.05);
+}
+
+.dashboard-link:active {
+    background: #4481eb;
+    transform: scale(1.1);
+}
+
+
+.daily-question {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.daily-question h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.daily-question p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.option {
+    background: #04befe;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.option.selected {
+    background: #4481eb;
+}
+
+.answer-status {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #04befe;
+}
+
+.user-profile-stats {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.user-profile-stats h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.user-profile-stats p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.user-profile-stats p:first-child {
+    color: #04befe;
+    font-weight: bold;
+}
+
+.user-profile-stats p:not(:first-child) {
+    color: #777;
+}
+
+

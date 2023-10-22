@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# QuizMaster
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+QuizMaster is a web application that allows users to take quizzes, improve their language skills, and view a leaderboard to compare their scores with others.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Take Quizzes:** Users can take quizzes in different languages to test their knowledge.
+- **Improve Language Skills:** Users can answer questions in their preferred language and improve their language skills.
+- **Leaderboard:** A leaderboard displays the top users and their scores.
 
-### `npm start`
+## Technologies Used
+- **Frontend:** React
+- **Backend:** Node.js and Express
+- **Database:** MongoDB
+- **API:** RESTful API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Run
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to run the QuizMaster project:
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js and npm installed.
+- MongoDB installed and running locally.
 
-### `npm run build`
+# Backend (Node.js)
+1. Open a terminal and navigate to the project's root folder.
+2. Install the required packages by running:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
+3. Naviagte to the backend folder.
+```
+cd src/components/backend
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the Node.js backend server by running:
+```
+node app.js
+```
+The server will start and listen for requests at @http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Frontend(React)
+1. Open another terminal and navigate to the "root" folder within the project.
+2. Start the React frontend by running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
+The React development server will start, and the application will be accessible at @http://localhost:3001 in your web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# MongoDB (Local Installation)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Ensure MongoDB is installed and running locally.
+2. You can start the MongoDB service by running:
+```
+mongod
+```
+Ensure that MongoDB is running on the default port (27017) or update the backend configuration to match the MongoDB connection settings.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.

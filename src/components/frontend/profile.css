@@ -1,0 +1,171 @@
+.profile {
+   
+    border: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: #0056b3; */
+    height: 100%;
+}
+
+.profile {
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile h2 {
+    text-align: center;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+}
+
+
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    justify-content: flex-end;
+    
+}
+
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.avatar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar-section label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.avatar-section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.avatar-section button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.avatar-section button:hover {
+    background-color: #0056b3;
+}
+
+.avatar-section p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.avatar-section p b {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.button-row button {
+    margin: 0;
+    
+}
+
+
+
+.profile h2 {
+    text-align: center;
+}
+
+.bold-and-enlarge {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
